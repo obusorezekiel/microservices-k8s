@@ -54,7 +54,7 @@ spec:
           - name: ENABLE_PROFILER
             value: "0"
           - name: FRONTEND_MESSAGE
-            value: "DrInTech Has Successfully Deployed on EKS Cluster"
+            value: "Ezekiel Umesi Has Successfully Deployed on EKS Cluster"
           resources:
             requests:
               cpu: 100m
