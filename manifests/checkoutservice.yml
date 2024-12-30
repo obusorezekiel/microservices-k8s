@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
         - name: server
-          image: gcr.io/google-samples/microservices-demo/checkoutservice:v0.2.3
+          image: obusorezekiel/checkoutservice:latest
           ports:
           - containerPort: 5050
           readinessProbe:

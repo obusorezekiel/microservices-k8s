@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
       - name: server
-        image: gcr.io/google-samples/microservices-demo/cartservice:v0.2.3
+        image: obusorezekiel/cartservice:latest
         ports:
         - containerPort: 7070
         env:
