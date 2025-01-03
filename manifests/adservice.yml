@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
       - name: server
-        image: obusorezekiel/adservice:latest
+        image: obusorezekiel/adservice:
         ports:
         - containerPort: 9555
         env:
