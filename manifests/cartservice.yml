@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
       - name: server
-        image: obusorezekiel/cartservice:latest
+        image: obusorezekiel/cartservice:
         ports:
         - containerPort: 7070
         env:
@@ -64,7 +64,7 @@ spec:
     spec:
       containers:
       - name: redis
-        image: redis:alpine
+        image: obusorezekiel/cartservice:
         ports:
         - containerPort: 6379
         readinessProbe:
