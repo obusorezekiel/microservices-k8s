@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
         - name: server
-          image: obusorezekiel/checkoutservice:latest
+          image: obusorezekiel/checkoutservice:3-ffdb739
           ports:
           - containerPort: 5050
           readinessProbe:
